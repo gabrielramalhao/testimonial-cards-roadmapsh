@@ -16,7 +16,7 @@
 
 .first-cards {
   display: flex;
-  gap: 10rem;
+  gap: 12rem;
   justify-content: space-evenly;
   margin: 0 45rem;
 }
@@ -26,21 +26,31 @@
 }
 
 .first-card > p {
-  width: 20rem;
+  width: 30rem;
   height: 12rem;
   background-color: black;
   border-radius: 2rem;
   margin: 2rem 0;
-  margin-left: 1rem;
   padding: 1rem;
   color: white;
 }
 
+.triangle {
+  position: absolute;
+  top: 15.9rem;
+  left: 61.8rem;
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+
+  border-top: 1rem solid black;
+}
+
 .first-card > div {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
-  margin-left: 1rem;
 }
 
 .first-card img {
@@ -50,9 +60,10 @@
 }
 
 .second-card {
-  margin: 2rem;
+  margin: 2rem 0;
+  margin-left: -20rem;
   padding: 1rem;
-  width: 20rem;
+  width: 30rem;
   border: 0.2rem solid black;
   border-radius: 2rem;
 }
